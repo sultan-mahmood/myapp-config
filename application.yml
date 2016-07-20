@@ -1,0 +1,28 @@
+myapp:
+  who: GitHub configuration repository!!!!!
+  password: secret
+
+hello:
+  message: Good day!
+
+---
+spring:
+  profiles: local
+
+hello:
+  message: local profile : Good day!
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+---
+spring:
+  profiles: cloud
+
+hello:
+  message: cloud profile : Good day!
+  
+foo:
+  bar: Profile test
