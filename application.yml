@@ -10,7 +10,7 @@ spring:
   profiles: local
 
 hello:
-  message: local profile : Good day!
+  message: local profile - Good day!
   
 eureka:
   client:
@@ -22,7 +22,7 @@ spring:
   profiles: cloud
 
 hello:
-  message: cloud profile : Good day!
+  message: cloud profile - Good day!
   
 foo:
   bar: Profile test
